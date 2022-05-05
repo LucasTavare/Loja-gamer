@@ -1,40 +1,117 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
+
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja gamer</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilo.css">
+    
 
 </head>
 
 <body>
 
     <div class="container">
-            <header class="header">
-                <div class="item fundo-branco"><img src="img/logo.png" alt=""></div>
-                <div class="item">
+        <header class="header">
+            <div class="item fundo-branco"><img src="img/logo.png" alt=""></div>
+            <div class="item">
 
-                    <input class="pesquisar" type="text" name="pesquisar" id="pesquisar" placeholder="Olá, oque você procura?..">
+                <input class="pesquisar" type="text" name="pesquisar" id="pesquisar"
+                    placeholder="Olá, oque você procura?..">
 
+            </div>
+            <div class="item">
+                <a class="texto-menu" href="">Login</a> /<br> <a class="texto-menu" href="">Cadastra-se</a>
+            </div>
+            <div class="item"><a class="texto-menu" href="">Seu carrinho<i class="fa-solid fa-cart-shopping fa-2x"></i></a></div>
+        </header>
+        <div id="container-interno">
+            <nav class="nav-bar">
+
+                <div class="item-navbar"> <i class="fa-solid fa-bars fa-2x"></i> </div>
+                <div class="item-navbar"> <a href="" class="texto-navbar">Categorias</a> </div>
+                <div class="item-navbar"> <a href="" class="texto-navbar">Jogos</a> </div>
+                <div class="item-navbar"> <a href="" class="texto-navbar">Consoles</a> </div>
+                <div class="item-navbar"> <a href="" class="texto-navbar">Acessorios</a> </div>
+                <div class="item-navbar"> <a href="" class="texto-navbar">Perífericos</a> </div>
+                <div class="item-navbar"> <a href="" class="texto-navbar">Peças de reposição</a> </div>
+
+            </nav>
+
+            <main>
+
+                <h1 class="texto-principal">Os melhores Produtos com os melhores preços</h1>
+
+                <div class="banner">
+                    <img class="img-banner" src="img/banner.png" alt="Imagens dos produtos">
                 </div>
-                <div class="item">
-                    <a class="texto-menu" href="">Login</a> /<br> <a class="texto-menu" href="">Cadastra-se</a>
+
+                <div class="categorias">
+                    <a href=""><img class="categorias-img" src="/img/destaque01.png" alt=""></a>
+                    <a href=""><img class="categorias-img" src="/img/destaque02.png" alt=""></a>
+                    <a href=""><img class="categorias-img" src="/img/destaque03.png" alt=""></a>
                 </div>
-                <div class="item"><a class="texto-menu" href="">Seu carrinho</a></div>
-            </header>
-            <div id="container-interno">
 
+                <div class="promocoes">
+                    <p class="promocoes-titulo">Promoções da Semana</p>
+                    
+                    <div id="myCarousel" class="carousel">
+                        <div class="carousel__slide">
+                            <figure>
+                                <img class="promocoes-img" src="img/promocao1.png" alt="">
+                                <figcaption>Aerocool : R$ 499,90
 
+                                    10x de R$ 49,99 sem juros</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="carousel__slide">
+                            <figure>
+                                <img class="promocoes-img" src="img/promocao2.png" alt="">
+                                <figcaption>Cadeira gamer R$ 1.999,90
+
+                                    12x de R$ 166,66 sem juros</figcaption>
+                            </figure>
+                        </div>
+                        
+                        <div class="carousel__slide">
+                            <figure>
+                                <img class="promocoes-img" src="img/promocao3.png" alt="">
+                                <figcaption>Aerocool: R$ 129,90
+
+                                    5x de R$ 25,98 sem juros</figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel__slide">
+                            <figure>
+                                <img class="promocoes-img" src="img/promocao4.png" alt="">
+                                <figcaption>Kit 3 Aerocool R$ 369,90
+
+                                    10x de R$ 36,99 sem juros</figcaption>
+                            </figure>
+                        </div>
+
+                      </div>
+                </div>
+
+            </main>
+                
 
 
         </div>
     </div>
-
-<!-- js da pagina -->
+    <!-- js da pagina -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="js/script.js"></script>
 </body>
 
