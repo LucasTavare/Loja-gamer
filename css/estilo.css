@@ -113,3 +113,99 @@ padding: 40px 0px;
     color: #FFFFFF;
     text-align: center;
 }
+
+.carrossel-figure{
+    background-color:#fff;
+    text-align: center;
+    padding: 17.5px;
+
+}
+
+.promocoes-img{
+    width: 100%;
+    height: 200px;
+}
+
+/* Altera o tamanho padrao de cada item do carrossel  */
+
+.carousel__slide{
+    max-width: var(--carousel-slide-width, 40%);
+}
+
+.banner2{
+    margin-top: 40px;
+}
+
+.banner2 img{
+    width: 100%;
+}
+
+.rodape{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #fff;
+}
+
+.rodape-item{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.rodape-titulo{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.rodape-item a{
+    text-decoration: none;
+    color: #c2c2c2;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+/* aqui se inicia a versão mobile */
+
+@media screen and (max-width: 768px) {
+    
+    .container{
+        width: 100%;
+    }
+
+    .header{
+        grid-template-columns: 1fr;
+        height: auto;
+        text-align: center;
+    }
+    
+    .pesquisar{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .item{
+        padding: 5px;
+    }
+
+    .nav-bar{
+        grid-template-columns: 1fr;
+    }
+
+    .item-navbar{
+        padding: 10px;
+    }
+
+    .texto-principal{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .categorias{
+        grid-template-columns: 1fr;
+    }
+
+    .rodape{
+        grid-template-columns: 1fr;
+    }
+}
