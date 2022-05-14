@@ -114,6 +114,10 @@ padding: 40px 0px;
     text-align: center;
 }
 
+.carousel{
+    --carousel-button-svg-stroke-width: 4.0;
+}
+
 .carrossel-figure{
     background-color:#fff;
     text-align: center;
@@ -164,6 +168,19 @@ padding: 40px 0px;
     font-weight: normal;
 }
 
+button{
+    background-color: aliceblue;
+}
+
+/* altera a cor das bolinhas do carrossel */
+.carousel__dots{
+    color: aqua;
+    margin-top: -50px !important;
+}
+
+.carousel__button{
+    background-color: #c2c2c241;
+}
 
 /* aqui se inicia a versão mobile */
 
@@ -207,5 +224,27 @@ padding: 40px 0px;
 
     .rodape{
         grid-template-columns: 1fr;
+    }
+
+    .carousel__slide{
+        max-width: var(--carousel-slide-width, 80%);
+        width: 70%;
+    }
+
+    .promocoes-img{
+        width: 100%;
+    }
+
+    .carrossel-figure{
+        margin: 0;
+        height: 335px;
+    }
+
+    .caminho-texto{
+        display: none;
+    }
+
+    .oculta-navbar{
+        display: none;
     }
 }

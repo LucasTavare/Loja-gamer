@@ -31,19 +31,19 @@
             <div class="item">
                 <a class="texto-menu" href="">Login</a> /<br> <a class="texto-menu" href="">Cadastra-se</a>
             </div>
-            <div class="item"><a class="texto-menu" href="">Seu carrinho<i
+            <div class="item"><a class="texto-menu" href=""><span class="caminho-texto">Seu carrinho</span><i
                         class="fa-solid fa-cart-shopping fa-2x"></i></a></div>
         </header>
         <div id="container-interno">
             <nav class="nav-bar">
 
-                <div class="item-navbar"> <i class="fa-solid fa-bars fa-2x"></i> </div>
-                <div class="item-navbar"> <a href="" class="texto-navbar">Categorias</a> </div>
-                <div class="item-navbar"> <a href="" class="texto-navbar">Jogos</a> </div>
-                <div class="item-navbar"> <a href="" class="texto-navbar">Consoles</a> </div>
-                <div class="item-navbar"> <a href="" class="texto-navbar">Acessorios</a> </div>
-                <div class="item-navbar"> <a href="" class="texto-navbar">Perífericos</a> </div>
-                <div class="item-navbar"> <a href="" class="texto-navbar">Peças de reposição</a> </div>
+                <div class="item-navbar"> <button><i class="fa-solid fa-bars fa-2x" onclick="exibeMenu()"></i></button> </div>
+                <div class="item-navbar oculta-navbar"> <a href="" class="texto-navbar">Categorias</a> </div>
+                <div class="item-navbar oculta-navbar"> <a href="" class="texto-navbar">Jogos</a> </div>
+                <div class="item-navbar oculta-navbar"> <a href="" class="texto-navbar">Consoles</a> </div>
+                <div class="item-navbar oculta-navbar"> <a href="" class="texto-navbar">Acessorios</a> </div>
+                <div class="item-navbar oculta-navbar"> <a href="" class="texto-navbar">Perífericos</a> </div>
+                <div class="item-navbar oculta-navbar"> <a href="" class="texto-navbar">Peças de reposição</a> </div>
 
             </nav>
 
@@ -68,8 +68,9 @@
                         <div class="carousel__slide">
                             <figure class="carrossel-figure">
                                 <img class="promocoes-img" src="img/promocao1.png" alt="">
-                                <figcaption><p>Aerocool : R$ 499,90</p> 
-                                    <p>10x de R$ 49,99 sem juros</p> 
+                                <figcaption>
+                                    <p>Aerocool : R$499,90</p>
+                                    <p>10x de R$ 49,99 sem juros</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -77,23 +78,29 @@
                         <div class="carousel__slide">
                             <figure class="carrossel-figure">
                                 <img class="promocoes-img" src="img/promocao2.png" alt="">
-                                <figcaption><p>Cadeira gamer R$ 1.999,90</p>
-                                    <p>12x de R$ 166,66 sem juros</p></figcaption>
+                                <figcaption>
+                                    <p>Cadeira gamer R$1.999,90</p>
+                                    <p>12x de R$166,66 sem juros</p>
+                                </figcaption>
                             </figure>
                         </div>
 
                         <div class="carousel__slide">
                             <figure class="carrossel-figure">
                                 <img class="promocoes-img" src="img/promocao3.png" alt="">
-                                <figcaption><p>Aerocool: R$ 129,90</p> 
-                                   <p>5x de R$ 25,98 sem juros</p> </figcaption>
+                                <figcaption>
+                                    <p>Aerocool: R$129,90</p>
+                                    <p>5x de R$ 25,98 sem juros</p>
+                                </figcaption>
                             </figure>
                         </div>
                         <div class="carousel__slide">
                             <figure class="carrossel-figure">
                                 <img class="promocoes-img" src="img/promocao4.png" alt="">
-                                <figcaption><p>Kit 3 Aerocool R$ 369,90</p> 
-                                    <p>10x de R$ 36,99 sem juros</p> </figcaption>
+                                <figcaption>
+                                    <p>Kit 3 Aerocool R$369,90</p>
+                                    <p>10x de R$ 36,99 sem juros</p>
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -111,49 +118,85 @@
             <div class="rodape-item">
                 <p class="rodape-titulo">Institucional</p>
 
-                <a href="" class="rodape-texto"><p>Quem somos?</p></a>
-                <a href="" class="rodape-texto"><p>Politica e Privacidade</p></a>
-                <a href="" class="rodape-texto"><p>Termos e condições de uso do site</p></a>
-                
+                <a href="" class="rodape-texto">
+                    <p>Quem somos?</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Politica e Privacidade</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Termos e condições de uso do site</p>
+                </a>
+
             </div>
 
             <div class="rodape-item">
                 <p class="rodape-titulo">DÚVIDAS FREQUENTES</p>
 
-                <a href="" class="rodape-texto"><p>Acompanhe seu pedido on-line</p></a>
-                <a href="" class="rodape-texto"><p >Cancelamento</p></a>
-                <a href="" class="rodape-texto"><p >Entrega</p></a>
-                <a href="" class="rodape-texto"><p >Pagamento</p></a>
-                <a href="" class="rodape-texto"><p >Pedidos</p></a>
-                <a href="" class="rodape-texto"><p >Promoções e descontos</p></a>
-                <a href="" class="rodape-texto"><p >Trocas de devoluções</p></a>
+                <a href="" class="rodape-texto">
+                    <p>Acompanhe seu pedido on-line</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Cancelamento</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Entrega</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Pagamento</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Pedidos</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Promoções e descontos</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Trocas de devoluções</p>
+                </a>
             </div>
 
             <div class="rodape-item">
                 <p class="rodape-titulo">ATENDIMENTO</p>
 
-                <a href="" class="rodape-texto"><p >Whatsapp: (19) 3366-1100</p></a>
-                <a href="" class="rodape-texto"><p >Tel: (19) 3366-1100</p></a>
-                
+                <a href="" class="rodape-texto">
+                    <p>Whatsapp: (19) 3366-1100</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Tel: (19) 3366-1100</p>
+                </a>
+
             </div>
 
             <div class="rodape-item">
                 <p class="rodape-titulo">SIGA NOSSAS REDES SOCIAIS</p>
-                <a href="" class="rodape-texto"><p >Facebook: @GameSquad</p></a>
-                <a href="" class="rodape-texto"><p >Instagram: @GameSquad</p></a>
-                <a href="" class="rodape-texto"><p >Twitter: @GameSquad</p></a>
-                
-                
-                
+                <a href="" class="rodape-texto">
+                    <p>Facebook: @GameSquad</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Instagram: @GameSquad</p>
+                </a>
+                <a href="" class="rodape-texto">
+                    <p>Twitter: @GameSquad</p>
+                </a>
+
+
+
             </div>
-                
+
 
         </footer>
 
     </div>
     <!-- js da pagina -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- script especificos da pagina -->
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
